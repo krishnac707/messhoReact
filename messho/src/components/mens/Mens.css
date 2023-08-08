@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mens-main-body{
+    width: 100%;
+}
+
+.menTopWear {
+    width: 97%;
+    position: relative;
+    left: 1%;
+    right: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.menTopWear>h2 {
+    margin-bottom: 1%;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    background-color: #f8f8ff;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    padding-bottom: 5%;
+}
+
+.shopNOnstop {
+    width: 30%;
+    /* padding-top: 2%; */
+}
+
+.shopNOnstop>h1 {
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+
+.footerFont {
+    color: #616173;
+}
+
+.shopNOnstop>p {
+    text-align: justify;
+    /* letter-spacing: 1px; */
+}
+
+.divImage {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divImage> :nth-child(1) {
+    width: 48%;
+}
+
+.divImage> :nth-child(2) {
+    width: 48%;
+}
+
+.careers {
+    width: 15%;
+    font-size: 20px;
+}
+
+.careers> :nth-child(2) {
+    margin-bottom: 5%;
+}
+
+.careerMargin {
+    margin-bottom: 5%;
+}
+
+.legal {
+    width: 15%;
+    font-size: 20px;
+}
+
+.legal> :nth-child(2) {
+    margin-bottom: 5%;
+}
+
+.social {
+    width: 15%;
+    font-size: 20px;
+}
+
+.social> :nth-child(1) {
+    margin-bottom: 5%;
+}
+
+.contact {
+    width: 15%;
+}
+
+.contact> :nth-child(1) {
+    margin-bottom: 5%;
+    font-size: 20px;
+}                                                                   

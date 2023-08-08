@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.singleMenWholeProduct {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleMenBigLeftImage {
+    width: 100%;
+}
+
+.singleMenleftsideProduct {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigTshirtImage {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: 1px solid rgb(234, 234, 242);
+    border-radius: 4px;
+}
+
+.bigTshirtImage>img {
+    width: 100%;
+    /* height: fit-content; */
+    height: 410px;
+    object-fit: contain;
+    /* margin-bottom: -4px; */
+}
+
+.menAddToCart {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    left: 5%;
+    right: 5%;
+}
+
+.menAddToCartButton {
+    width: 48%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 1px solid #9f2089;
+    border-radius: 4px;
+    background-color: white;
+    color: #9f2089;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menAddToCartBuyNow {
+    width: 48%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #9f2089;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.singleMenRightsideProduct {
+    width: 49%;
+}
+
+.sportyTshirtDescription {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(234, 234, 242);
+    margin-bottom: 2%;
+}
+
+.sportyTshirtNameDescription {
+    width: 98%;
+    position: relative;
+    left: 2%;
+}
+
+.sportyTshirtName {
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.menTshirtPrice {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+.menTshirtDescriptionRating {
+    background-color: #23bb75;
+    color: white;
+    border-radius: 25%;
+    padding: 3%;
+
+}
+
+.menTshirtDescriptionReview {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.menTshirtDescriptionReview>p:nth-child(1) {
+    width: 10%;
+    background-color: #23bb75;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+.menTshirtSelectSize {
+    width: 100%;
+    border: 1px solid rgb(234, 234, 242);
+    border-radius: 4px;
+    margin-bottom: 2%;
+}
+
+.menTshirtSelectSizePosition {
+    width: 98%;
+    position: relative;
+    left: 2%;
+}
+
+.menTshirtSelectSizeHeading {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menTshirtDifferentSize {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%
+}
+
+.tshirtWidthSSize {
+    width: 13%;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 18px;
+}
+
+.tshirtWidthMSize {
+    width: 14%;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 18px;
+}
+
+.tshirtWidthLSize {
+    width: 13%;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 18px;
+}
+
+.tshirtWidthXLSize {
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 18px;
+}
+
+.tshirtWidthXXLSize {
+    width: 17%;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 18px;
+}
+
+.menTshirtSportyDetail>p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.menTshirtSportyDetail>p:nth-child(2) {
+    color: #616173;
+    padding-right: 6%;
+    margin-bottom: 3%;
+}
+
+.menTshirtSportyDetail>p:nth-child(3) {
+    width: 24%;
+    color: #616173;
+    border-bottom: 1px dashed #616173;
+    margin-bottom: 8%;
+}
+
+.menTshirtHomeLogo>p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.menTshirtHomeImage {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menTshirtHomeImage>img {
+    width: 15%;
+    height: 70px;
+}
+
+.menTshirtHomeImage>p {
+    width: 50%;
+    padding-top: 5%;
+    font-size: 16px;
+}
+
+.menTshirtHomeImage>button {
+    width: 30%;
+    height: 50%;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #9f2089;
+    background-color: white;
+    color: #9f2089;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 2%;
+}
+
+.menRatingFollowerProducts{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+
+.menTshirtRatingsCss{
+    width: 35%;
+}
+
+.menTshirtRatingsCss>div>p{
+    border: 1px solid rgb(234, 234, 242);
+    border-radius: 15px;
+    width: 35%;
+    text-align: center;
+    color: rgb(85, 133, 248);
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+.menTshirtFollowerCss{
+    width: 20%;
+    margin-top: 1%;
+    /* margin-bottom: 1%; */
+}
+
+.menTshirtFollowerCss>p:nth-child(1){
+    
+    margin-bottom: 6%;
+    font-size: 18px;
+}
+
+.menTshirtProductCss{
+    width: 35%;
+    margin-top: 1%;
+}
+
+.menTshirtProductCss>p:nth-child(1){
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+
+.menRangeRating{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+.menRangeRating>div:nth-child(1){
+    width: 30%;
+
+}
+
+.menRangeRating>div>p:nth-child(1){
+    font-size: 42px;
+    font-weight: 800;
+    color: #23bb75;
+    padding-top: 25%;
+}
+
+.menRangeRating>div>p:nth-child(2){
+    margin-top: 3%;
+    font-size: 12px;
+}
+.menRangeRating>div>p:nth-child(3){
+    font-size: 12px;
+}
+
+.menRangeRating>div:nth-child(2){
+    width: 67%;
+    margin-right: 2%;
+}
+
+.menRangeRating>div:nth-child(2)>img{
+    width: 100%;
+}
+
+.menFilterLine {
+    border-top: 1px solid #cecede;
+}
+
+.customerRealImage{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.menTshirtRealImage{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.menTshirtRealImage>div{
+    width: 30%;
+
+}
+
+.menTshirtRealImage>div>img{
+    width: 100%;
+    height: 80px;
+    border-radius: 4px;
+}

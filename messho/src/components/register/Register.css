@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginDiv {
+    background-color: #fdecee;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+}
+
+.loginForm {
+    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    background-color: white;
+}
+
+.loginpage {
+    width: 86%;
+    position: relative;
+    left: 7%;
+    right: 7%;
+}
+
+.loginHeading {
+    font-size: 22px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.inputCss {
+    width: 90%;
+    padding: 3%;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border: 1px solid #cecede;
+    margin-bottom: 3%;
+}
+
+.buttonCss {
+    padding-bottom: 4%;
+    width: 90%;
+    background-color: #9f2089;
+    border: none;
+    padding-top: 5%;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonMargin {
+    margin-bottom: 8%;
+
+}
+
+.form-select-css{
+    width: 90%;
+    /* border: none; */
+    font-size: 18px;
+    outline: none;
+    margin-bottom: 3%;
+    padding: 2%;
+
+}
+
+.linkClick {
+    color: #353543;
+    cursor: pointer;
+}
+
+.imageSize {
+    width: 100%;
+}
